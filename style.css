@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(67, 145, 154);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    height: 320px;
+    width: 320px;
+    background-image: url(pngwing.com.png);
+    background-size: cover;
+    border-radius: 3rem;
+    box-shadow: 0 0 15px 5px rgba(50, 50, 50, 0.5);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+}
+.board:hover {
+    cursor: pointer;
+}
+.circle {
+    background-image: url(pngwing.com\ \(2\).png);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cross {
+    background-image: url(pngwing.com\ \(1\).png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#result {
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+}
+#restart {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-size: 28px;
+    padding: 15px 25px;
+}
+#restart:hover, #restart:active, #restart:focus {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .5s;
+}

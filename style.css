@@ -14,7 +14,7 @@ body {
 .board {
     height: 320px;
     width: 320px;
-    background-image: url(pngwing.com.png);
+    background-image: url(board.png);
     background-size: cover;
     border-radius: 3rem;
     box-shadow: 0 0 15px 5px rgba(50, 50, 50, 0.5);
@@ -27,13 +27,13 @@ body {
     cursor: pointer;
 }
 .circle {
-    background-image: url(pngwing.com\ \(2\).png);
+    background-image: url(circle.png);
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .cross {
-    background-image: url(pngwing.com\ \(1\).png);
+    background-image: url(x.png);
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
